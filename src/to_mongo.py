@@ -24,8 +24,8 @@ class ToMongo():
         self.clean_data()
     def clean_data(self):
         # grab both files
-        self.df1 = pd.read_csv(f'{folder_dir}\student-mat.csv',sep=';')
-        self.df2 = pd.read_csv(f'{folder_dir}\student-por.csv',sep=';')
+        self.df1 = pd.read_csv(f'{folder_dir}/student-mat.csv',sep=';')
+        self.df2 = pd.read_csv(f'{folder_dir}/student-por.csv',sep=';')
         #add flags
         self.df1.loc[:,'course'] = 'math'
         self.df2.loc[:,'course'] = 'portuguese'
