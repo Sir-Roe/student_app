@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("Summary Page for MTG Tracer")
+st.title("Summary Page for Student-Homework")
 st.text('''
         This application was designed to show my ability to connect to mongodb and present
         the data via streamlit in my own application.
